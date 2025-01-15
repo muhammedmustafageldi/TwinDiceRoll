@@ -23,7 +23,7 @@ To run the project, follow these steps:
 
 You can view a demo of the app in action here:
 
-![App Demo](https://github.com/muhammedmustafageldi/My-ScreenShots-Files/blob/main/Screnshots/TwinDiceRoll/twin_dice_roll.gif)
+![App Demo](https://github.com/muhammedmustafageldi/My-ScreenShots-Files/blob/main/Screnshots/TwinDiceRoll/twin_dice_roll.gif = 600x600)
 
 *Replace the path with the actual link to your GIF.*
 
