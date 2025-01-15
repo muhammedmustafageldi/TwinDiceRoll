@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		53CD2AA62D37F9840030CE8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53CD2A872D37F9830030CE8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53CD2A8E2D37F9830030CE8E;
+			remoteInfo = "Twin Dice Roll";
+		};
+		53CD2AB02D37F9840030CE8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53CD2A872D37F9830030CE8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53CD2A8E2D37F9830030CE8E;
+			remoteInfo = "Twin Dice Roll";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53CD2A8F2D37F9830030CE8E /* Twin Dice Roll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twin Dice Roll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CD2AA52D37F9840030CE8E /* Twin Dice RollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Twin Dice RollTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CD2AAF2D37F9840030CE8E /* Twin Dice RollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Twin Dice RollUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		53CD2AB72D37F9840030CE8E /* Exceptions for "Twin Dice Roll" folder in "Twin Dice Roll" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 53CD2A8E2D37F9830030CE8E /* Twin Dice Roll */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		53CD2A912D37F9830030CE8E /* Twin Dice Roll */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				53CD2AB72D37F9840030CE8E /* Exceptions for "Twin Dice Roll" folder in "Twin Dice Roll" target */,
+			);
+			path = "Twin Dice Roll";
+			sourceTree = "<group>";
+		};
+		53CD2AA82D37F9840030CE8E /* Twin Dice RollTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Twin Dice RollTests";
+			sourceTree = "<group>";
+		};
+		53CD2AB22D37F9840030CE8E /* Twin Dice RollUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Twin Dice RollUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53CD2A8C2D37F9830030CE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CD2AA22D37F9840030CE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CD2AAC2D37F9840030CE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53CD2A862D37F9830030CE8E = {
+			isa = PBXGroup;
+			children = (
+				53CD2A912D37F9830030CE8E /* Twin Dice Roll */,
+				53CD2AA82D37F9840030CE8E /* Twin Dice RollTests */,
+				53CD2AB22D37F9840030CE8E /* Twin Dice RollUITests */,
+				53CD2A902D37F9830030CE8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53CD2A902D37F9830030CE8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53CD2A8F2D37F9830030CE8E /* Twin Dice Roll.app */,
+				53CD2AA52D37F9840030CE8E /* Twin Dice RollTests.xctest */,
+				53CD2AAF2D37F9840030CE8E /* Twin Dice RollUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53CD2A8E2D37F9830030CE8E /* Twin Dice Roll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CD2AB82D37F9840030CE8E /* Build configuration list for PBXNativeTarget "Twin Dice Roll" */;
+			buildPhases = (
+				53CD2A8B2D37F9830030CE8E /* Sources */,
+				53CD2A8C2D37F9830030CE8E /* Frameworks */,
+				53CD2A8D2D37F9830030CE8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				53CD2A912D37F9830030CE8E /* Twin Dice Roll */,
+			);
+			name = "Twin Dice Roll";
+			packageProductDependencies = (
+			);
+			productName = "Twin Dice Roll";
+			productReference = 53CD2A8F2D37F9830030CE8E /* Twin Dice Roll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53CD2AA42D37F9840030CE8E /* Twin Dice RollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CD2ABD2D37F9840030CE8E /* Build configuration list for PBXNativeTarget "Twin Dice RollTests" */;
+			buildPhases = (
+				53CD2AA12D37F9840030CE8E /* Sources */,
+				53CD2AA22D37F9840030CE8E /* Frameworks */,
+				53CD2AA32D37F9840030CE8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53CD2AA72D37F9840030CE8E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				53CD2AA82D37F9840030CE8E /* Twin Dice RollTests */,
+			);
+			name = "Twin Dice RollTests";
+			packageProductDependencies = (
+			);
+			productName = "Twin Dice RollTests";
+			productReference = 53CD2AA52D37F9840030CE8E /* Twin Dice RollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53CD2AAE2D37F9840030CE8E /* Twin Dice RollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CD2AC02D37F9840030CE8E /* Build configuration list for PBXNativeTarget "Twin Dice RollUITests" */;
+			buildPhases = (
+				53CD2AAB2D37F9840030CE8E /* Sources */,
+				53CD2AAC2D37F9840030CE8E /* Frameworks */,
+				53CD2AAD2D37F9840030CE8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53CD2AB12D37F9840030CE8E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				53CD2AB22D37F9840030CE8E /* Twin Dice RollUITests */,
+			);
+			name = "Twin Dice RollUITests";
+			packageProductDependencies = (
+			);
+			productName = "Twin Dice RollUITests";
+			productReference = 53CD2AAF2D37F9840030CE8E /* Twin Dice RollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53CD2A872D37F9830030CE8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					53CD2A8E2D37F9830030CE8E = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					53CD2AA42D37F9840030CE8E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 53CD2A8E2D37F9830030CE8E;
+					};
+					53CD2AAE2D37F9840030CE8E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 53CD2A8E2D37F9830030CE8E;
+					};
+				};
+			};
+			buildConfigurationList = 53CD2A8A2D37F9830030CE8E /* Build configuration list for PBXProject "Twin Dice Roll" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53CD2A862D37F9830030CE8E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 53CD2A902D37F9830030CE8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53CD2A8E2D37F9830030CE8E /* Twin Dice Roll */,
+				53CD2AA42D37F9840030CE8E /* Twin Dice RollTests */,
+				53CD2AAE2D37F9840030CE8E /* Twin Dice RollUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53CD2A8D2D37F9830030CE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CD2AA32D37F9840030CE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CD2AAD2D37F9840030CE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53CD2A8B2D37F9830030CE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CD2AA12D37F9840030CE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CD2AAB2D37F9840030CE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53CD2AA72D37F9840030CE8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53CD2A8E2D37F9830030CE8E /* Twin Dice Roll */;
+			targetProxy = 53CD2AA62D37F9840030CE8E /* PBXContainerItemProxy */;
+		};
+		53CD2AB12D37F9840030CE8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53CD2A8E2D37F9830030CE8E /* Twin Dice Roll */;
+			targetProxy = 53CD2AB02D37F9840030CE8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		53CD2AB92D37F9840030CE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Twin Dice Roll/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swanky.Twin-Dice-Roll";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53CD2ABA2D37F9840030CE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Twin Dice Roll/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swanky.Twin-Dice-Roll";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53CD2ABB2D37F9840030CE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53CD2ABC2D37F9840030CE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53CD2ABE2D37F9840030CE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swanky.Twin-Dice-RollTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twin Dice Roll.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Twin Dice Roll";
+			};
+			name = Debug;
+		};
+		53CD2ABF2D37F9840030CE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swanky.Twin-Dice-RollTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twin Dice Roll.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Twin Dice Roll";
+			};
+			name = Release;
+		};
+		53CD2AC12D37F9840030CE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swanky.Twin-Dice-RollUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Twin Dice Roll";
+			};
+			name = Debug;
+		};
+		53CD2AC22D37F9840030CE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swanky.Twin-Dice-RollUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Twin Dice Roll";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53CD2A8A2D37F9830030CE8E /* Build configuration list for PBXProject "Twin Dice Roll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CD2ABB2D37F9840030CE8E /* Debug */,
+				53CD2ABC2D37F9840030CE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CD2AB82D37F9840030CE8E /* Build configuration list for PBXNativeTarget "Twin Dice Roll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CD2AB92D37F9840030CE8E /* Debug */,
+				53CD2ABA2D37F9840030CE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CD2ABD2D37F9840030CE8E /* Build configuration list for PBXNativeTarget "Twin Dice RollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CD2ABE2D37F9840030CE8E /* Debug */,
+				53CD2ABF2D37F9840030CE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CD2AC02D37F9840030CE8E /* Build configuration list for PBXNativeTarget "Twin Dice RollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CD2AC12D37F9840030CE8E /* Debug */,
+				53CD2AC22D37F9840030CE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53CD2A872D37F9830030CE8E /* Project object */;
+}
