@@ -25,8 +25,6 @@ You can view a demo of the app in action here:
 
 <img src="https://github.com/muhammedmustafageldi/My-ScreenShots-Files/blob/main/Screnshots/TwinDiceRoll/twin_dice_roll.gif" width="250" height="500"/>
 
-*Replace the path with the actual link to your GIF.*
-
 ## Technologies Used
 
 - Swift
